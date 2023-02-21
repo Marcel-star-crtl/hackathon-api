@@ -1,5 +1,6 @@
 // Require the mongose library
 const mongoose = require('mongoose');
+let DB_HOST = mongodb+srv://hackathonBase:<Difficulttodecypherstring>@cluster0.fja3u17.mongodb.net/?retryWrites=true&w=majority
 
 module.exports = {
   connect: DB_HOST => {
